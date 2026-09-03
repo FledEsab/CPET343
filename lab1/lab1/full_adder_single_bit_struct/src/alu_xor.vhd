@@ -2,7 +2,7 @@
 --Ethan Saber
 --alu_xor.vhd
 --09.03.26
---and operation of two inputs
+--xor operation of two inputs
 ------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
@@ -19,6 +19,6 @@ entity alu_and is
 ARCHITECTURE beh of alu_and is
 begin
 
-    c_out <= a xor b ;
+    c_out <= a xor b;
 
 end beh;

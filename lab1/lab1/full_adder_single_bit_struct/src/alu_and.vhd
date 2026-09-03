@@ -19,6 +19,6 @@
     ARCHITECTURE beh of alu_and is
     begin
 
-    c_out <= a and b ;
+    c_out <= a and b;
 
-    end beh
+    end beh;
