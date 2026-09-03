@@ -16,6 +16,7 @@ entity alu_and is
 
     );
 end alu_and;
+
 ARCHITECTURE beh of alu_and is
 begin
 
