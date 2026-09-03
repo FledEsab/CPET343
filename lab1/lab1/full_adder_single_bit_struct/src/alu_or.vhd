@@ -12,6 +12,7 @@ entity alu_and is
 
         a     :in std_logic_vector(1 downto 0);
         b     :in std_logic_vector(1 downto 0);
+        c_a :in std_logic_vector(1 downto 0);
         c_out :out std_logic_vector(1 downto 0);
 
     );
