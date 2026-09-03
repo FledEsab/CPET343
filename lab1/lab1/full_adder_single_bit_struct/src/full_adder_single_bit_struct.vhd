@@ -51,6 +51,14 @@ architecture struct of full_adder_single_bit_struct is
 
 --temp signals if needed
 
+  signal temp1 : std_logic;
+  signal temp2 : std_logic;
+  signal temp3 : std_logic;
+  signal temp4 : std_logic;
+  signal temp5 : std_logic;
+  signal temp6 : std_logic;
+  signal temp7 : std_logic;
+
 --end temp signals
 
 begin
