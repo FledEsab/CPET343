@@ -12,10 +12,10 @@ entity alu_and is
 
         a     :in std_logic;
         b     :in std_logic;
-        c_out  :out std_logic;
+        c_out  :out std_logic
 
     );
-
+end alu_and;
 ARCHITECTURE beh of alu_and is
 begin
 

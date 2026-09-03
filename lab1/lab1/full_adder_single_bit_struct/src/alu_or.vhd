@@ -7,17 +7,17 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity alu_and is
+entity alu_or is
     port(
 
         a     :in std_logic;
         b     :in std_logic;
         c_a   :in std_logic;
-        c_out :out std_logic;
+        c_out :out std_logic
 
     );
-
-ARCHITECTURE beh of alu_and is
+    end alu_or;
+ARCHITECTURE beh of alu_or is
 begin
 
     c_out <= a or b or c_a;

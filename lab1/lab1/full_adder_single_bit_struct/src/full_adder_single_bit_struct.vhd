@@ -69,7 +69,7 @@ begin
   --port maps / instance(s)
 
   --done
-  u_and : alu_and
+  and_instance : alu_and
   port map(
 
     a => a,
@@ -78,7 +78,7 @@ begin
 
   );
   --done
-  u_and1 : alu_and
+  and1_instance : alu_and
     port map(
 
     a => a,
@@ -87,7 +87,7 @@ begin
 
     );
   --done
-  u_and2 : alu_and
+  and2_instance : alu_and
     port map(
 
     a => b,
@@ -96,7 +96,7 @@ begin
 
     );
 
-  u_or : alu_or
+  or_instance : alu_or
     port map(
 
     a => temp1,
@@ -106,7 +106,7 @@ begin
 
     );
 
-  u_xor : alu_xor
+  xor_instance : alu_xor
     port map(
 
     a => a,
@@ -115,7 +115,7 @@ begin
 
     );
 
-  u_xor1 : alu_xor
+  xor1_instance : alu_xor
     port map(
 
     a => temp5,
