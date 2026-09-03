@@ -13,7 +13,7 @@ entity full_adder_single_bit_struct is
     b       : in std_logic;
     cin     : in std_logic;
     sum     : out std_logic;
-    cout    : out std_logic;
+    cout    : out std_logic
   );
 end full_adder_single_bit_struct;
 
@@ -23,9 +23,9 @@ architecture struct of full_adder_single_bit_struct is
 --component and operation
   component alu_and
     port(
-      a   :in std_logic;
-      b   :in std_logic;
-      c_out :out std_logic;
+      a   :in std_logic_vector(1 downto 0);
+      b   :in std_logic_vector(1 downto 0);
+      c_out :out std_logic_vector(1 downto 0)
 
     );
     end component;
@@ -34,7 +34,7 @@ architecture struct of full_adder_single_bit_struct is
     port(
       a   :in std_logic_vector(1 downto 0);
       b   :in std_logic_vector(1 downto 0);
-      c_out   :out std_logic_vector(1 downto 0);
+      c_out   :out std_logic_vector(1 downto 0)
 
     );
   end component;
@@ -43,7 +43,7 @@ architecture struct of full_adder_single_bit_struct is
     port(
       a   :in std_logic_vector(1 downto 0);
       b   :in std_logic_vector(1 downto 0);
-      c_out  :out std_logic_vector(1 downto 0);
+      c_out  :out std_logic_vector(1 downto 0)
 
     );
   end component;
@@ -51,13 +51,13 @@ architecture struct of full_adder_single_bit_struct is
 
 --temp signals if needed
 
-  signal temp1 : std_logic;
-  signal temp2 : std_logic;
-  signal temp3 : std_logic;
-  signal temp4 : std_logic;
-  signal temp5 : std_logic;
-  signal temp6 : std_logic;
-  signal temp7 : std_logic;
+  signal temp1 : std_logic_vector(1 downto 0);
+  signal temp2 : std_logic_vector(1 downto 0);
+  signal temp3 : std_logic_vector(1 downto 0);
+  signal temp4 : std_logic_vector(1 downto 0);
+  signal temp5 : std_logic_vector(1 downto 0);
+  signal temp6 : std_logic_vector(1 downto 0);
+  signal temp7 : std_logic_vector(1 downto 0);
 
 --end temp signals
 
@@ -119,4 +119,4 @@ begin
 
     );
 
-end beh; 
+end struct; 
