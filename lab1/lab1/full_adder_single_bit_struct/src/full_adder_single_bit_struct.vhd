@@ -13,9 +13,9 @@ entity full_adder_single_bit_struct is
     b       : in std_logic;
     cin     : in std_logic;
     sum     : out std_logic;
-    cout    : out std_logic
+    cout    : out std_logic;
   );
-end full_adder_single_bit_beh;
+end full_adder_single_bit_struct;
 
 architecture struct of full_adder_single_bit_struct is
 
@@ -23,9 +23,9 @@ architecture struct of full_adder_single_bit_struct is
 --component and operation
   component alu_and
     port(
-      a   :in std_logic_vector(1 downto 0);
-      b   :in std_logic_vector(1 downto 0);
-      c_out :out std_logic_vector(1 downto 0);
+      a   :in std_logic;
+      b   :in std_logic;
+      c_out :out std_logic;
 
     );
     end component;
