@@ -2,7 +2,7 @@
 --Ethan Saber
 --alu_xor.vhd
 --09.03.26
---xor\ operation of two inputs
+--xor operation of two inputs
 ------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
