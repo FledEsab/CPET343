@@ -10,7 +10,7 @@ end full_adder_single_bit_beh_tb;
 
 architecture arch of full_adder_single_bit_beh_tb is
 
-component full_adder_single_bit_beh
+component full_adder_single_bit_struct
   port(
     a      : in std_logic;
     b      : in std_logic;
@@ -27,7 +27,7 @@ signal sum  : std_logic;
 signal cout : std_logic;
 
 begin 
-  uut: full_adder_single_bit_beh 
+  uut: full_adder_single_bit_struct 
     port map(
       a     => a,
       b     => b,

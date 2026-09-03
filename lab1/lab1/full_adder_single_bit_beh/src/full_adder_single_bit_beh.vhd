@@ -21,7 +21,7 @@ architecture beh of full_adder_single_bit_beh is
 signal x : std_logic_vector(1 downto 0);
 signal av: std_logic_vector(1 downto 0);
 signal bv: std_logic_vector(1 downto 0);
-signal cinv: std_logic_vector(1 downto 0);
+signal cinv: std_logic_vector(1 downto 0)
 
 begin
   av <= "0" & a;
