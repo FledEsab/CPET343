@@ -92,7 +92,7 @@ begin
 
     a => b,
     b => cin,
-    c_out =>temp3
+    c_out => temp3
 
     );
 
