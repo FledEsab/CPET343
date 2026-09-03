@@ -12,7 +12,7 @@ entity alu_and is
 
         a     :in std_logic;
         b     :in std_logic;
-        c_a :in std_logic;
+        c_a   :in std_logic;
         c_out :out std_logic;
 
     );
@@ -20,6 +20,6 @@ entity alu_and is
 ARCHITECTURE beh of alu_and is
 begin
 
-    c_out <= a or b;
+    c_out <= a or b or c_a;
 
 end beh;
