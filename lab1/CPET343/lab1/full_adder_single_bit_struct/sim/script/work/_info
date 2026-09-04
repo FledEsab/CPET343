@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ethan/Documents/CPET 343/Labs/lab1/lab1/full_adder_single_bit_struct/sim/script
+Ealu_and
+Z1 w1788475854
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../../src/alu_and.vhd
+Z5 F../../src/alu_and.vhd
+l0
+L10
+VTj:T7H<iQYoWB6kc3gjz=2
+!s100 li=X7Fj8WR5IPl44g;=2m0
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1788476007
+!i10b 1
+Z8 !s108 1788476007.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|../../src/alu_and.vhd|
+Z10 !s107 ../../src/alu_and.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abeh
+R2
+R3
+DEx4 work 7 alu_and 0 22 Tj:T7H<iQYoWB6kc3gjz=2
+l21
+L20
+V6mR8@@:635;g^oRmE3=fc1
+!s100 fkEf<NCi>VZ1[44_aMfUN0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu_or
+Z13 w1788475743
+R2
+R3
+R0
+Z14 8../../src/alu_or.vhd
+Z15 F../../src/alu_or.vhd
+l0
+L10
+VOi[WBB0iCnS9GnJ5Ma]=G3
+!s100 >`3jOHiMdVM3>l3NE]:@31
+R6
+31
+Z16 !s110 1788476008
+!i10b 1
+Z17 !s108 1788476008.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|../../src/alu_or.vhd|
+Z19 !s107 ../../src/alu_or.vhd|
+!i113 1
+R11
+R12
+Abeh
+R2
+R3
+DEx4 work 6 alu_or 0 22 Oi[WBB0iCnS9GnJ5Ma]=G3
+l21
+L20
+Vnggd]4c8QNhb=kl>O;OfU0
+!s100 ELEZOF_5=C^GOj0<`PXQQ0
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Ealu_xor
+R13
+R2
+R3
+R0
+Z20 8../../src/alu_xor.vhd
+Z21 F../../src/alu_xor.vhd
+l0
+L10
+V`jSG3N5@Zc:Y>[3kegG[`3
+!s100 Og`EebL9bUl4HBd;iSHnA0
+R6
+31
+R16
+!i10b 1
+R17
+Z22 !s90 -reportprogress|300|-93|-work|work|../../src/alu_xor.vhd|
+Z23 !s107 ../../src/alu_xor.vhd|
+!i113 1
+R11
+R12
+Abeh
+R2
+R3
+DEx4 work 7 alu_xor 0 22 `jSG3N5@Zc:Y>[3kegG[`3
+l21
+L20
+VOgIon5locgilcW7_eaR7o0
+!s100 1GC]zYR6e_IMUR_7Vdioe2
+R6
+31
+R16
+!i10b 1
+R17
+R22
+R23
+!i113 1
+R11
+R12
+Efull_adder_single_bit_struct
+Z24 w1788475448
+R2
+R3
+R0
+Z25 8../../src/full_adder_single_bit_struct.vhd
+Z26 F../../src/full_adder_single_bit_struct.vhd
+l0
+L10
+V17F5FW=LOzZ2[W>[BT[;f3
+!s100 f9ieiLRh:^^5FmRZ?4U;?0
+R6
+31
+R16
+!i10b 1
+R17
+Z27 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_struct.vhd|
+Z28 !s107 ../../src/full_adder_single_bit_struct.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 28 full_adder_single_bit_struct 0 22 17F5FW=LOzZ2[W>[BT[;f3
+l68
+L20
+V7agX:k7>za<ihL[GcFhYn2
+!s100 eK8DXCK<`o66g;CFakZFc0
+R6
+31
+R16
+!i10b 1
+R17
+R27
+R28
+!i113 1
+R11
+R12
+Efull_adder_single_bit_struct_tb
+Z29 w1788474331
+R2
+R3
+R0
+Z30 8../src/full_adder_single_bit_struct_tb.vhd
+Z31 F../src/full_adder_single_bit_struct_tb.vhd
+l0
+L8
+VGUfl4@GgZ[AT@QH8MnYUj1
+!s100 cJz3_mHcF;d60TC;iFKgH0
+R6
+31
+R16
+!i10b 1
+R17
+Z32 !s90 -reportprogress|300|-93|-work|work|../src/full_adder_single_bit_struct_tb.vhd|
+Z33 !s107 ../src/full_adder_single_bit_struct_tb.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+Z34 DEx4 work 31 full_adder_single_bit_struct_tb 0 22 GUfl4@GgZ[AT@QH8MnYUj1
+l29
+L11
+Z35 Vm4S_kYX;gd=HKUi]2<2bO0
+Z36 !s100 Q=bNUmlk9S6M9846JNbmh3
+R6
+31
+R16
+!i10b 1
+R17
+R32
+R33
+!i113 1
+R11
+R12

@@ -1,0 +1,43 @@
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:27:19 on Sep 03,2026
+# vcom -reportprogress 300 -93 -work work ../../src/full_adder_single_bit_beh.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder_single_bit_beh
+# -- Compiling architecture beh of full_adder_single_bit_beh
+# End time: 15:27:19 on Sep 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:27:19 on Sep 03,2026
+# vcom -reportprogress 300 -93 -work work ../src/full_adder_single_bit_beh_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder_single_bit_beh_tb
+# -- Compiling architecture arch of full_adder_single_bit_beh_tb
+# End time: 15:27:19 on Sep 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" full_adder_single_bit_beh_tb 
+# Start time: 15:27:19 on Sep 03,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.full_adder_single_bit_beh_tb(arch)
+# Loading ieee.numeric_std(body)
+# Loading work.full_adder_single_bit_beh(beh)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Ethan  Hostname: ETHANFRAMEWORK  ProcessID: 34060
+#           Attempting to use alternate WLF file "./wlftz8qbx6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz8qbx6
+run
+run
+do wave.do
+run
+do wave.do
+# End time: 16:38:17 on Sep 03,2026, Elapsed time: 1:10:58
+# Errors: 0, Warnings: 2
