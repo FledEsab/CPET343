@@ -1,6 +1,10 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/misic.xml
+/modules.xml
+/vcs.xml
+/workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Ignored default folder with query files
