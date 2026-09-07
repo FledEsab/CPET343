@@ -1,7 +1,8 @@
 -------------------------------------------------------------------------------
--- Ethan Saber
+-- Original: Dr. Kaputa
+-- Updated: Ethan Saber
 -- generic adder [hierarchical]
---09.06.2026
+-- 09.06.2026
 -------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
@@ -22,7 +23,7 @@ end entity generic_adder_arch;
 
 architecture arch of generic_adder_arch is
 
-component full_adder_single_bit_arch is 
+component generic_adder_arch_sub is
   port (
     a       : in std_logic;
     b       : in std_logic;
@@ -30,13 +31,13 @@ component full_adder_single_bit_arch is
     sum     : out std_logic;
     cout    : out std_logic
   );
-end component full_adder_single_bit_arch;
+end component generic_adder_arch_sub;
 
 signal carry_internal: std_logic_vector(bits downto 0);
 
 begin
   adders: for i in 0 to bits-1 generate
-    full_adder: full_adder_single_bit_arch
+    u_full_adder: generic_adder_arch_sub
       port map (
         a       => a(i),
         b       => b(i),
