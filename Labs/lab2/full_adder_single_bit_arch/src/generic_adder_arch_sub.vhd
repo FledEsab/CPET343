@@ -18,6 +18,8 @@ use ieee.std_logic_1164.all;
 
     architecture arch of generic_adder_arch_sub is
     begin
-    sum <= (a xor b) xor cin;
+
+    sum  <= (a xor b) xor cin;
     cout <= (a and b) or (a and cin) or (b and cin);
+
     end arch;
