@@ -16,7 +16,7 @@ port(
 	clk      :in std_logic;
 	reset    :in std_logic;
 	bcd      :in std_logic_vector(3 downto 0);
-	hex0     :out std_logic_vector(6 downto 0);
+	hex0     :out std_logic_vector(6 downto 0)
 );
 
 end hex_ones_dig;
@@ -30,7 +30,7 @@ begin
 		hex0 <= "11111111";--blank
 		else
 
-		case ones_dig is
+		case bcd is --this is case bcd since bcd is the 'value' we need to process
 
 	    when "0000" => hex0 <= "1000000";  -- 0
       
@@ -64,7 +64,7 @@ begin
       
 		--when "0000001111" => ones_dig_1 <= "0001110";  -- F
       
-		when others => ones_dig_1 <= "1111111";--sets all other segments off
+		when others => hex0 <= "1111111";--sets all other segments off
 
         end case;
 		end if;
