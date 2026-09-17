@@ -25,7 +25,7 @@ begin
     report "****************** sequential testbench start ****************";
     wait for 80 ns;
     for i in 0 to 9 loop
-      bcd <= std_logic_vector(unsigned(bcd)+1);
+      bcd <= std_logic_vector(to_unsigned(i, 4));
       wait for 40 ns;
     end loop;
     report "****************** sequential testbench stop ****************";
@@ -50,7 +50,7 @@ begin
     clk           => clk,
     reset         => reset,
     bcd           => bcd,
-    seven_seg_out => open
+    seven_seg_out => seven_seg_out
     );
 
 end arch;

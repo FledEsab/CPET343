@@ -70,16 +70,19 @@ uut: hex_ones_dig
             clk   => clk,
             reset => reset,
             hex0  => seven_seg_out,
-            bcd   => bcd
+            bcd   => sum_sig
         );
 uut1: generic_counter
+    --generic map(
+        --max_count => 50000000
+    --)
         port map(
             clk    =>   clk,
             reset  => reset,
-            output => output
+            output => enable
 
         );
-uut: generic_adder_beh
+uut2: generic_adder_beh
         port map(
             a     =>    sum_sig,
             b     =>    "0001",
@@ -91,16 +94,20 @@ uut: generic_adder_beh
 ------------------------------------------------------------------
         --Process for sum register
 ------------------------------------------------------------------
-        sum_register : process(clk,reset)
+        sum_register : process(clk, reset)
         begin
-            if(reset='1')then
-                sum_sig <= "1111";
-                elsif(clk'event and clk ='1')then
-                if(enable = '1') then
-                    sum_sig <= sum;
+            if reset = '1' then
+                sum_sig <= "1111";              -- sum = 15 + 1 = 0
+            elsif rising_edge(clk) then
+                if enable = '1' then
+                    if sum_sig = "1001" then          -- just reached 9
+                        sum_sig <= "0000";          -- next sum is 0
+                    else
+                        sum_sig <= sum;
                     end if;
                 end if;
-            end process sum_register;
+            end if;
+        end process;
 
 
         end beh;
