@@ -27,8 +27,9 @@ begin
 process(reset,bcd)
 begin
 	if(reset = '1') then
-		hex0 <= "11111111";--blank
-		else
+		hex0 <= "1111111";--blank
+
+	else
 
 		case bcd is --this is case bcd since bcd is the 'value' we need to process
 
