@@ -1,8 +1,8 @@
 -----------------------------------------------------------------------------------
     --Top
     --Designer: Ethan Saber
-    --Purpose:  Simulation of all possible 4-bit for 7 seg disp
-    --Date:     09.16.26
+    --Purpose:  Counter [Simulation]
+    --Date:     09.17.26
 -----------------------------------------------------------------------------------
 
     library ieee;
@@ -20,7 +20,12 @@
     );
     end seven_seg_sim;
     architecture beh of seven_seg_sim is
-        signal output : std_logic;
+-------------------------------------------------------------------
+        --Temporary signals
+-------------------------------------------------------------------
+        signal     sum       : std_logic_vector(3 downto 0)  :=  "0000";
+        signal     sum_sig   : std_logic_vector(3 downto 0)  :=  "0000";
+        signal     enable    : std_logic;
 -------------------------------------------------------------------
         --Components
 -------------------------------------------------------------------
@@ -43,8 +48,19 @@ component generic_counter is
     output   : out std_logic
 );
 end component;
+
+component generic_adder_beh is
+        port(
+            a         : in std_logic_vector(3 downto 0);
+            b         : in std_logic_vector(3 downto 0);
+            cin       : in std_logic;
+            sum       : out std_logic_vector(3 downto 0);
+            cout      : out std_logic
+
+        );
+        end component;
 -------------------------------------------------------------------
-        begin --lets begin the arch beh of svn seg disp sim
+        begin
 -------------------------------------------------------------------
 -------------------------------------------------------------------
         --Port maps
@@ -63,6 +79,31 @@ uut1: generic_counter
             output => output
 
         );
+uut: generic_adder_beh
+        port map(
+            a     =>    sum_sig,
+            b     =>    "0001",
+            cin   =>    '0',
+            sum   =>    sum,
+            cout  =>    open
 
-end beh;
+        );
+------------------------------------------------------------------
+        --Process for sum register
+------------------------------------------------------------------
+        sum_register : process(clk,reset)
+        begin
+            if(reset='1')then
+                sum_sig <= "1111";
+                elsif(clk'event and clk ='1')then
+                if(enable = '1') then
+                    sum_sig <= sum;
+                    end if;
+                end if;
+            end process sum_register;
+
+
+        end beh;
+
+
 
