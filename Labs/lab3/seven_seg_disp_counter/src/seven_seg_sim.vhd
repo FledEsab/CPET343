@@ -73,9 +73,9 @@ uut: hex_ones_dig
             bcd   => sum_sig
         );
 uut1: generic_counter
-    --generic map(
-        --max_count => 50000000
-    --)
+    generic map(
+        max_count => 50000000
+    )
         port map(
             clk    =>   clk,
             reset  => reset,

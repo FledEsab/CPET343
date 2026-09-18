@@ -7,7 +7,7 @@ use ieee.std_logic_1164.all;
 
 entity blink is
   generic (
-    max_count       : integer := 2500000000000
+    max_count       : integer := 25000000
   );
   port (
     clk             : in  std_logic; 
