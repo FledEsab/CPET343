@@ -1,0 +1,47 @@
+# do sim.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:12 on Sep 17,2026
+# vcom -reportprogress 300 -93 -work work ../../src/blink.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity blink
+# ** Error: ../../src/blink.vhd(10): near "2500000000000": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: ../../src/blink.vhd(17): VHDL Compiler exiting
+# End time: 16:37:13 on Sep 17,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 2
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/blink.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:09 on Sep 17,2026
+# vcom -reportprogress 300 -93 -work work ../../src/blink.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity blink
+# -- Compiling architecture beh of blink
+# End time: 16:40:09 on Sep 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:09 on Sep 17,2026
+# vcom -reportprogress 300 -93 -work work ../src/blink_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity blink_tb
+# -- Compiling architecture arch of blink_tb
+# ** Warning: ../src/blink_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:40:09 on Sep 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" blink_tb 
+# Start time: 16:40:11 on Sep 17,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.blink_tb(arch)
+# Loading work.blink(beh)

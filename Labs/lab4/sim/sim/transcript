@@ -1,0 +1,1081 @@
+# do sim.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:01:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# ** Error (suppressible): ../../src/calculator_top.vhd(136): (vcom-1272) Length of expected is 3; length of actual is 4.
+# ** Error (suppressible): ../../src/calculator_top.vhd(146): (vcom-1272) Length of expected is 3; length of actual is 4.
+# ** Error (suppressible): ../../src/calculator_top.vhd(173): (vcom-1272) Length of formal "bcd" is 3; length of actual is 4.
+# ** Error: ../../src/calculator_top.vhd(212): VHDL Compiler exiting
+# End time: 16:01:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 2
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/calculator_top.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:02:53 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# ** Error (suppressible): ../../src/calculator_top.vhd(173): (vcom-1272) Length of formal "bcd" is 3; length of actual is 4.
+# ** Error: ../../src/calculator_top.vhd(212): VHDL Compiler exiting
+# End time: 16:02:53 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 2
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/calculator_top.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:23 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# ** Error (suppressible): ../../src/calculator_top.vhd(173): (vcom-1272) Length of formal "bcd" is 3; length of actual is 4.
+# ** Error: ../../src/calculator_top.vhd(212): VHDL Compiler exiting
+# End time: 16:06:23 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 2
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/calculator_top.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:07:10 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# ** Error (suppressible): ../../src/calculator_top.vhd(136): (vcom-1272) Length of expected is 3; length of actual is 4.
+# ** Error (suppressible): ../../src/calculator_top.vhd(146): (vcom-1272) Length of expected is 3; length of actual is 4.
+# ** Error (suppressible): ../../src/calculator_top.vhd(173): (vcom-1272) Length of formal "bcd" is 3; length of actual is 4.
+# ** Error: ../../src/calculator_top.vhd(212): VHDL Compiler exiting
+# End time: 16:07:10 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 2
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/calculator_top.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:05 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:09:05 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:05 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:09:05 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:05 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:09:05 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:05 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:09:05 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:05 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:09:05 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:06 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# ** Warning: ../src/add_sub_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error (suppressible): ../src/add_sub_tb.vhd(58): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: ../src/add_sub_tb.vhd(100): VHDL Compiler exiting
+# End time: 16:09:06 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 7
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../src/add_sub_tb.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:14 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:11:14 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:14 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:11:14 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:14 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:11:14 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:14 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:11:14 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:14 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:11:14 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:14 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# ** Warning: ../src/add_sub_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: ../src/add_sub_tb.vhd(64): (vcom-1484) Unknown formal identifier "add_button".
+# ** Error: ../src/add_sub_tb.vhd(65): (vcom-1484) Unknown formal identifier "sub_button".
+# ** Error: ../src/add_sub_tb.vhd(100): VHDL Compiler exiting
+# End time: 16:11:14 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 7
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../src/add_sub_tb.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:46 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:11:46 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:46 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:11:46 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:46 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:11:46 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:46 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:11:46 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:46 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:11:46 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:46 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# ** Warning: ../src/add_sub_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: ../src/add_sub_tb.vhd(64): (vcom-1136) Unknown identifier "add_btn".
+# ** Error: ../src/add_sub_tb.vhd(65): (vcom-1136) Unknown identifier "sub_btn".
+# ** Error: ../src/add_sub_tb.vhd(64): (vcom-1484) Unknown formal identifier "add_button".
+# ** Error: ../src/add_sub_tb.vhd(65): (vcom-1484) Unknown formal identifier "sub_button".
+# ** Error: ../src/add_sub_tb.vhd(75): Illegal target for signal assignment.
+# ** Error: ../src/add_sub_tb.vhd(75): (vcom-1136) Unknown identifier "add_btn".
+# ** Error: ../src/add_sub_tb.vhd(83): Illegal target for signal assignment.
+# ** Error: ../src/add_sub_tb.vhd(83): (vcom-1136) Unknown identifier "add_btn".
+# ** Error: ../src/add_sub_tb.vhd(86): Illegal target for signal assignment.
+# ** Error: ../src/add_sub_tb.vhd(86): (vcom-1136) Unknown identifier "sub_btn".
+# ** Error: ../src/add_sub_tb.vhd(94): Illegal target for signal assignment.
+# ** Error: ../src/add_sub_tb.vhd(94): (vcom-1136) Unknown identifier "sub_btn".
+# ** Error: ../src/add_sub_tb.vhd(100): VHDL Compiler exiting
+# End time: 16:11:46 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 1
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 7
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../src/add_sub_tb.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:11:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:11:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:11:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:11:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:11:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# ** Warning: ../src/add_sub_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: ../src/add_sub_tb.vhd(64): (vcom-1484) Unknown formal identifier "add_button".
+# ** Error: ../src/add_sub_tb.vhd(65): (vcom-1484) Unknown formal identifier "sub_button".
+# ** Error: ../src/add_sub_tb.vhd(100): VHDL Compiler exiting
+# End time: 16:11:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 7
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../src/add_sub_tb.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:12:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:12:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:12:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:12:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:12:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:12:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:12:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:12:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:12:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:12:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:12:56 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# ** Warning: ../src/add_sub_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:12:56 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Error: No Design Loaded!
+# Error in macro ./sim.do line 9
+# No Design Loaded!
+#     while executing
+# "run 500 ns"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:13:25 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:13:25 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:13:25 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:13:25 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:13:25 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:13:26 on Oct 08,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:13:26 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:13:26 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:13:26 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:13:26 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:13:26 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# End time: 16:13:26 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: No Design Loaded!
+# Error in macro ./sim.do line 9
+# No Design Loaded!
+#     while executing
+# "run 500 ns"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:49 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:14:49 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:49 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:14:49 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:49 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:14:49 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:49 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:14:50 on Oct 08,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:50 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:14:50 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:50 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# End time: 16:14:50 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.add_sub_tb 
+# Start time: 16:14:52 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.add_sub_tb(arch)
+# Loading work.calculator_top(beh)
+# Loading work.synchronizer_3bit(beh)
+# ** Error: (vsim-3732) ../../src/calculator_top.vhd(101): No default binding for component instance 'u_sync_a'.
+#    The following component port is not on the entity:
+#           async_out
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb/uut/u_sync_a File: ../../src/synchronizer_3bit.vhd
+# ** Error: (vsim-3732) ../../src/calculator_top.vhd(112): No default binding for component instance 'u_sync_b'.
+#    The following component port is not on the entity:
+#           async_out
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb/uut/u_sync_b File: ../../src/synchronizer_3bit.vhd
+# Loading work.generic_calculator(beh)
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (4) for port "/add_sub_tb/uut/u_add_sub/c".
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb/uut/u_add_sub File: ../../src/generic_calculator.vhd Line: 19
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 8
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:01 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:19:01 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:01 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:19:01 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:01 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:19:01 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:01 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:19:01 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:02 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:19:02 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:02 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# End time: 16:19:02 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.add_sub_tb 
+# Start time: 16:14:52 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.add_sub_tb(arch)
+# Loading work.calculator_top(beh)
+# Loading work.synchronizer_3bit(beh)
+# Loading work.generic_calculator(beh)
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (4) for port "/add_sub_tb/uut/u_add_sub/c".
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb/uut/u_add_sub File: ../../src/generic_calculator.vhd Line: 19
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 8
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:23:24 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:23:24 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:23:24 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:23:24 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:23:24 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:23:24 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:23:24 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:23:24 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:23:24 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:23:24 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:23:24 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# End time: 16:23:24 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.add_sub_tb 
+# Start time: 16:14:52 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.add_sub_tb(arch)
+# Loading work.calculator_top(beh)
+# Loading work.synchronizer_3bit(beh)
+# Loading work.generic_calculator(beh)
+# Loading work.bcd_to_sev_seg(beh)
+# Loading work.rising_edge_synchronizer(beh)
+# ** Note: ****************** sequential testbench start ****************
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb
+add wave -position insertpoint  \
+sim:/add_sub_tb/uut/clk \
+sim:/add_sub_tb/uut/reset \
+sim:/add_sub_tb/uut/a \
+sim:/add_sub_tb/uut/b \
+sim:/add_sub_tb/uut/add_button \
+sim:/add_sub_tb/uut/sub_button \
+sim:/add_sub_tb/uut/a_bcd \
+sim:/add_sub_tb/uut/b_bcd \
+sim:/add_sub_tb/uut/result_bcd \
+sim:/add_sub_tb/uut/a_sync \
+sim:/add_sub_tb/uut/b_sync \
+sim:/add_sub_tb/uut/a_bcd_sync \
+sim:/add_sub_tb/uut/b_bcd_sync \
+sim:/add_sub_tb/uut/add_en \
+sim:/add_sub_tb/uut/sub_en \
+sim:/add_sub_tb/uut/result \
+sim:/add_sub_tb/uut/result_signal \
+sim:/add_sub_tb/uut/flag \
+sim:/add_sub_tb/uut/NUM_BITS
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab4/sim/sim/wave.do}
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:27 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:24:27 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:27 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:24:27 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:27 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:24:27 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:27 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:24:27 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:28 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:24:28 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:28 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# End time: 16:24:28 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:24:31 on Oct 08,2026, Elapsed time: 0:09:39
+# Errors: 4, Warnings: 0
+# vsim work.add_sub_tb 
+# Start time: 16:24:31 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.add_sub_tb(arch)
+# Loading work.calculator_top(beh)
+# Loading work.synchronizer_3bit(beh)
+# Loading work.generic_calculator(beh)
+# Loading work.bcd_to_sev_seg(beh)
+# Loading work.rising_edge_synchronizer(beh)
+# ** Note: ****************** sequential testbench start ****************
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:19 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:29:19 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:19 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:29:19 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:19 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:29:19 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:19 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:29:19 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:19 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:29:19 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:20 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# End time: 16:29:20 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:29:22 on Oct 08,2026, Elapsed time: 0:04:51
+# Errors: 0, Warnings: 0
+# vsim work.add_sub_tb 
+# Start time: 16:29:22 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.add_sub_tb(arch)
+# Loading work.calculator_top(beh)
+# Loading work.synchronizer_3bit(beh)
+# Loading work.generic_calculator(beh)
+# Loading work.bcd_to_sev_seg(beh)
+# Loading work.rising_edge_synchronizer(beh)
+# ** Note: ****************** sequential testbench start ****************
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb
+# ** Note: ****************** add test complete testbench stop ****************
+#    Time: 1380 ns  Iteration: 0  Instance: /add_sub_tb
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:47 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity calculator_top
+# -- Compiling architecture beh of calculator_top
+# End time: 16:36:47 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:47 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 16:36:47 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:47 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/bcd_to_sev_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_to_sev_seg
+# -- Compiling architecture beh of bcd_to_sev_seg
+# End time: 16:36:47 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:47 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_calculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_calculator
+# -- Compiling architecture beh of generic_calculator
+# End time: 16:36:47 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:47 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 16:36:47 on Oct 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:47 on Oct 08,2026
+# vcom -reportprogress 300 -93 -work work ../src/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture arch of add_sub_tb
+# End time: 16:36:48 on Oct 08,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:36:50 on Oct 08,2026, Elapsed time: 0:07:28
+# Errors: 0, Warnings: 0
+# vsim work.add_sub_tb 
+# Start time: 16:36:50 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.add_sub_tb(arch)
+# Loading work.calculator_top(beh)
+# Loading work.synchronizer_3bit(beh)
+# Loading work.generic_calculator(beh)
+# Loading work.bcd_to_sev_seg(beh)
+# Loading work.rising_edge_synchronizer(beh)
+# ** Note: ****************** sequential testbench start ****************
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb
+# ** Note: ****************** add test complete testbench stop ****************
+#    Time: 1380 ns  Iteration: 0  Instance: /add_sub_tb
+# ** Note: ****************** sub   test complete testbench stop ****************
+#    Time: 2660 ns  Iteration: 0  Instance: /add_sub_tb
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab4/sim/sim/wave.do}

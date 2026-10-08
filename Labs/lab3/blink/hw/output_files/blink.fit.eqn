@@ -1,0 +1,431 @@
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+--C1_count_sig[11] is blink:uut|count_sig[11] at FF_X45_Y1_N5
+--register power-up is low
+
+C1_count_sig[11] = DFFEAS(C1L2, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[4] is blink:uut|count_sig[4] at FF_X45_Y2_N43
+--register power-up is low
+
+C1_count_sig[4] = DFFEAS(C1L6, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[3] is blink:uut|count_sig[3] at FF_X45_Y2_N41
+--register power-up is low
+
+C1_count_sig[3] = DFFEAS(C1L10, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[2] is blink:uut|count_sig[2] at FF_X45_Y2_N38
+--register power-up is low
+
+C1_count_sig[2] = DFFEAS(C1L14, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[1] is blink:uut|count_sig[1] at FF_X45_Y2_N35
+--register power-up is low
+
+C1_count_sig[1] = DFFEAS(C1L18, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[0] is blink:uut|count_sig[0] at FF_X45_Y2_N31
+--register power-up is low
+
+C1_count_sig[0] = DFFEAS(C1L22, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[10] is blink:uut|count_sig[10] at FF_X45_Y2_N5
+--register power-up is low
+
+C1_count_sig[10] = DFFEAS( , GLOBAL(A1L4), !A1L8,  ,  , C1L26,  , C1L124, VCC);
+
+
+--C1_count_sig[9] is blink:uut|count_sig[9] at FF_X45_Y2_N59
+--register power-up is low
+
+C1_count_sig[9] = DFFEAS(C1L30, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[8] is blink:uut|count_sig[8] at FF_X45_Y2_N56
+--register power-up is low
+
+C1_count_sig[8] = DFFEAS(C1L34, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[7] is blink:uut|count_sig[7] at FF_X45_Y2_N52
+--register power-up is low
+
+C1_count_sig[7] = DFFEAS(C1L38, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[6] is blink:uut|count_sig[6] at FF_X45_Y2_N50
+--register power-up is low
+
+C1_count_sig[6] = DFFEAS(C1L42, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[5] is blink:uut|count_sig[5] at FF_X45_Y2_N47
+--register power-up is low
+
+C1_count_sig[5] = DFFEAS(C1L46, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[22] is blink:uut|count_sig[22] at FF_X45_Y1_N38
+--register power-up is low
+
+C1_count_sig[22] = DFFEAS(C1L50, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[21] is blink:uut|count_sig[21] at FF_X45_Y1_N35
+--register power-up is low
+
+C1_count_sig[21] = DFFEAS(C1L54, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[20] is blink:uut|count_sig[20] at FF_X45_Y1_N32
+--register power-up is low
+
+C1_count_sig[20] = DFFEAS(C1L58, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[19] is blink:uut|count_sig[19] at FF_X45_Y1_N28
+--register power-up is low
+
+C1_count_sig[19] = DFFEAS(C1L62, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[18] is blink:uut|count_sig[18] at FF_X45_Y1_N26
+--register power-up is low
+
+C1_count_sig[18] = DFFEAS(C1L66, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[17] is blink:uut|count_sig[17] at FF_X45_Y1_N23
+--register power-up is low
+
+C1_count_sig[17] = DFFEAS(C1L70, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[16] is blink:uut|count_sig[16] at FF_X45_Y1_N20
+--register power-up is low
+
+C1_count_sig[16] = DFFEAS(C1L74, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[15] is blink:uut|count_sig[15] at FF_X45_Y1_N17
+--register power-up is low
+
+C1_count_sig[15] = DFFEAS(C1L78, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[14] is blink:uut|count_sig[14] at FF_X45_Y1_N14
+--register power-up is low
+
+C1_count_sig[14] = DFFEAS(C1L82, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[13] is blink:uut|count_sig[13] at FF_X45_Y1_N10
+--register power-up is low
+
+C1_count_sig[13] = DFFEAS(C1L86, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1_count_sig[12] is blink:uut|count_sig[12] at FF_X45_Y1_N8
+--register power-up is low
+
+C1_count_sig[12] = DFFEAS(C1L90, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1L2 is blink:uut|Add0~1 at LABCELL_X45_Y1_N3
+C1L2_adder_eqn = ( C1_count_sig[11] ) + ( GND ) + ( C1L27 );
+C1L2 = SUM(C1L2_adder_eqn);
+
+--C1L3 is blink:uut|Add0~2 at LABCELL_X45_Y1_N3
+C1L3_adder_eqn = ( C1_count_sig[11] ) + ( GND ) + ( C1L27 );
+C1L3 = CARRY(C1L3_adder_eqn);
+
+
+--C1L6 is blink:uut|Add0~5 at LABCELL_X45_Y2_N42
+C1L6_adder_eqn = ( C1_count_sig[4] ) + ( GND ) + ( C1L11 );
+C1L6 = SUM(C1L6_adder_eqn);
+
+--C1L7 is blink:uut|Add0~6 at LABCELL_X45_Y2_N42
+C1L7_adder_eqn = ( C1_count_sig[4] ) + ( GND ) + ( C1L11 );
+C1L7 = CARRY(C1L7_adder_eqn);
+
+
+--C1L10 is blink:uut|Add0~9 at LABCELL_X45_Y2_N39
+C1L10_adder_eqn = ( C1_count_sig[3] ) + ( GND ) + ( C1L15 );
+C1L10 = SUM(C1L10_adder_eqn);
+
+--C1L11 is blink:uut|Add0~10 at LABCELL_X45_Y2_N39
+C1L11_adder_eqn = ( C1_count_sig[3] ) + ( GND ) + ( C1L15 );
+C1L11 = CARRY(C1L11_adder_eqn);
+
+
+--C1L14 is blink:uut|Add0~13 at LABCELL_X45_Y2_N36
+C1L14_adder_eqn = ( C1_count_sig[2] ) + ( GND ) + ( C1L19 );
+C1L14 = SUM(C1L14_adder_eqn);
+
+--C1L15 is blink:uut|Add0~14 at LABCELL_X45_Y2_N36
+C1L15_adder_eqn = ( C1_count_sig[2] ) + ( GND ) + ( C1L19 );
+C1L15 = CARRY(C1L15_adder_eqn);
+
+
+--C1L18 is blink:uut|Add0~17 at LABCELL_X45_Y2_N33
+C1L18_adder_eqn = ( C1_count_sig[1] ) + ( GND ) + ( C1L23 );
+C1L18 = SUM(C1L18_adder_eqn);
+
+--C1L19 is blink:uut|Add0~18 at LABCELL_X45_Y2_N33
+C1L19_adder_eqn = ( C1_count_sig[1] ) + ( GND ) + ( C1L23 );
+C1L19 = CARRY(C1L19_adder_eqn);
+
+
+--C1L22 is blink:uut|Add0~21 at LABCELL_X45_Y2_N30
+C1L22_adder_eqn = ( C1_count_sig[0] ) + ( VCC ) + ( !VCC );
+C1L22 = SUM(C1L22_adder_eqn);
+
+--C1L23 is blink:uut|Add0~22 at LABCELL_X45_Y2_N30
+C1L23_adder_eqn = ( C1_count_sig[0] ) + ( VCC ) + ( !VCC );
+C1L23 = CARRY(C1L23_adder_eqn);
+
+
+--C1L26 is blink:uut|Add0~25 at LABCELL_X45_Y1_N0
+C1L26_adder_eqn = ( C1_count_sig[10] ) + ( GND ) + ( C1L31 );
+C1L26 = SUM(C1L26_adder_eqn);
+
+--C1L27 is blink:uut|Add0~26 at LABCELL_X45_Y1_N0
+C1L27_adder_eqn = ( C1_count_sig[10] ) + ( GND ) + ( C1L31 );
+C1L27 = CARRY(C1L27_adder_eqn);
+
+
+--C1L30 is blink:uut|Add0~29 at LABCELL_X45_Y2_N57
+C1L30_adder_eqn = ( C1_count_sig[9] ) + ( GND ) + ( C1L35 );
+C1L30 = SUM(C1L30_adder_eqn);
+
+--C1L31 is blink:uut|Add0~30 at LABCELL_X45_Y2_N57
+C1L31_adder_eqn = ( C1_count_sig[9] ) + ( GND ) + ( C1L35 );
+C1L31 = CARRY(C1L31_adder_eqn);
+
+
+--C1L34 is blink:uut|Add0~33 at LABCELL_X45_Y2_N54
+C1L34_adder_eqn = ( C1_count_sig[8] ) + ( GND ) + ( C1L39 );
+C1L34 = SUM(C1L34_adder_eqn);
+
+--C1L35 is blink:uut|Add0~34 at LABCELL_X45_Y2_N54
+C1L35_adder_eqn = ( C1_count_sig[8] ) + ( GND ) + ( C1L39 );
+C1L35 = CARRY(C1L35_adder_eqn);
+
+
+--C1L38 is blink:uut|Add0~37 at LABCELL_X45_Y2_N51
+C1L38_adder_eqn = ( C1_count_sig[7] ) + ( GND ) + ( C1L43 );
+C1L38 = SUM(C1L38_adder_eqn);
+
+--C1L39 is blink:uut|Add0~38 at LABCELL_X45_Y2_N51
+C1L39_adder_eqn = ( C1_count_sig[7] ) + ( GND ) + ( C1L43 );
+C1L39 = CARRY(C1L39_adder_eqn);
+
+
+--C1L42 is blink:uut|Add0~41 at LABCELL_X45_Y2_N48
+C1L42_adder_eqn = ( C1_count_sig[6] ) + ( GND ) + ( C1L47 );
+C1L42 = SUM(C1L42_adder_eqn);
+
+--C1L43 is blink:uut|Add0~42 at LABCELL_X45_Y2_N48
+C1L43_adder_eqn = ( C1_count_sig[6] ) + ( GND ) + ( C1L47 );
+C1L43 = CARRY(C1L43_adder_eqn);
+
+
+--C1L46 is blink:uut|Add0~45 at LABCELL_X45_Y2_N45
+C1L46_adder_eqn = ( C1_count_sig[5] ) + ( GND ) + ( C1L7 );
+C1L46 = SUM(C1L46_adder_eqn);
+
+--C1L47 is blink:uut|Add0~46 at LABCELL_X45_Y2_N45
+C1L47_adder_eqn = ( C1_count_sig[5] ) + ( GND ) + ( C1L7 );
+C1L47 = CARRY(C1L47_adder_eqn);
+
+
+--C1L50 is blink:uut|Add0~49 at LABCELL_X45_Y1_N36
+C1L50_adder_eqn = ( C1_count_sig[22] ) + ( GND ) + ( C1L55 );
+C1L50 = SUM(C1L50_adder_eqn);
+
+
+--C1L54 is blink:uut|Add0~53 at LABCELL_X45_Y1_N33
+C1L54_adder_eqn = ( C1_count_sig[21] ) + ( GND ) + ( C1L59 );
+C1L54 = SUM(C1L54_adder_eqn);
+
+--C1L55 is blink:uut|Add0~54 at LABCELL_X45_Y1_N33
+C1L55_adder_eqn = ( C1_count_sig[21] ) + ( GND ) + ( C1L59 );
+C1L55 = CARRY(C1L55_adder_eqn);
+
+
+--C1L58 is blink:uut|Add0~57 at LABCELL_X45_Y1_N30
+C1L58_adder_eqn = ( C1_count_sig[20] ) + ( GND ) + ( C1L63 );
+C1L58 = SUM(C1L58_adder_eqn);
+
+--C1L59 is blink:uut|Add0~58 at LABCELL_X45_Y1_N30
+C1L59_adder_eqn = ( C1_count_sig[20] ) + ( GND ) + ( C1L63 );
+C1L59 = CARRY(C1L59_adder_eqn);
+
+
+--C1L62 is blink:uut|Add0~61 at LABCELL_X45_Y1_N27
+C1L62_adder_eqn = ( C1_count_sig[19] ) + ( GND ) + ( C1L67 );
+C1L62 = SUM(C1L62_adder_eqn);
+
+--C1L63 is blink:uut|Add0~62 at LABCELL_X45_Y1_N27
+C1L63_adder_eqn = ( C1_count_sig[19] ) + ( GND ) + ( C1L67 );
+C1L63 = CARRY(C1L63_adder_eqn);
+
+
+--C1L66 is blink:uut|Add0~65 at LABCELL_X45_Y1_N24
+C1L66_adder_eqn = ( C1_count_sig[18] ) + ( GND ) + ( C1L71 );
+C1L66 = SUM(C1L66_adder_eqn);
+
+--C1L67 is blink:uut|Add0~66 at LABCELL_X45_Y1_N24
+C1L67_adder_eqn = ( C1_count_sig[18] ) + ( GND ) + ( C1L71 );
+C1L67 = CARRY(C1L67_adder_eqn);
+
+
+--C1L70 is blink:uut|Add0~69 at LABCELL_X45_Y1_N21
+C1L70_adder_eqn = ( C1_count_sig[17] ) + ( GND ) + ( C1L75 );
+C1L70 = SUM(C1L70_adder_eqn);
+
+--C1L71 is blink:uut|Add0~70 at LABCELL_X45_Y1_N21
+C1L71_adder_eqn = ( C1_count_sig[17] ) + ( GND ) + ( C1L75 );
+C1L71 = CARRY(C1L71_adder_eqn);
+
+
+--C1L74 is blink:uut|Add0~73 at LABCELL_X45_Y1_N18
+C1L74_adder_eqn = ( C1_count_sig[16] ) + ( GND ) + ( C1L79 );
+C1L74 = SUM(C1L74_adder_eqn);
+
+--C1L75 is blink:uut|Add0~74 at LABCELL_X45_Y1_N18
+C1L75_adder_eqn = ( C1_count_sig[16] ) + ( GND ) + ( C1L79 );
+C1L75 = CARRY(C1L75_adder_eqn);
+
+
+--C1L78 is blink:uut|Add0~77 at LABCELL_X45_Y1_N15
+C1L78_adder_eqn = ( C1_count_sig[15] ) + ( GND ) + ( C1L83 );
+C1L78 = SUM(C1L78_adder_eqn);
+
+--C1L79 is blink:uut|Add0~78 at LABCELL_X45_Y1_N15
+C1L79_adder_eqn = ( C1_count_sig[15] ) + ( GND ) + ( C1L83 );
+C1L79 = CARRY(C1L79_adder_eqn);
+
+
+--C1L82 is blink:uut|Add0~81 at LABCELL_X45_Y1_N12
+C1L82_adder_eqn = ( C1_count_sig[14] ) + ( GND ) + ( C1L87 );
+C1L82 = SUM(C1L82_adder_eqn);
+
+--C1L83 is blink:uut|Add0~82 at LABCELL_X45_Y1_N12
+C1L83_adder_eqn = ( C1_count_sig[14] ) + ( GND ) + ( C1L87 );
+C1L83 = CARRY(C1L83_adder_eqn);
+
+
+--C1L86 is blink:uut|Add0~85 at LABCELL_X45_Y1_N9
+C1L86_adder_eqn = ( C1L110Q ) + ( GND ) + ( C1L91 );
+C1L86 = SUM(C1L86_adder_eqn);
+
+--C1L87 is blink:uut|Add0~86 at LABCELL_X45_Y1_N9
+C1L87_adder_eqn = ( C1L110Q ) + ( GND ) + ( C1L91 );
+C1L87 = CARRY(C1L87_adder_eqn);
+
+
+--C1L90 is blink:uut|Add0~89 at LABCELL_X45_Y1_N6
+C1L90_adder_eqn = ( C1_count_sig[12] ) + ( GND ) + ( C1L3 );
+C1L90 = SUM(C1L90_adder_eqn);
+
+--C1L91 is blink:uut|Add0~90 at LABCELL_X45_Y1_N6
+C1L91_adder_eqn = ( C1_count_sig[12] ) + ( GND ) + ( C1L3 );
+C1L91 = CARRY(C1L91_adder_eqn);
+
+
+--C1_output_sig is blink:uut|output_sig at FF_X45_Y2_N1
+--register power-up is low
+
+C1_output_sig = DFFEAS(C1L126, GLOBAL(A1L4), !A1L8,  ,  ,  ,  ,  ,  );
+
+
+--C1L120 is blink:uut|Equal0~0 at LABCELL_X45_Y2_N21
+C1L120 = ( !C1_count_sig[2] & ( !C1_count_sig[3] & ( (!C1L97Q & (!C1_count_sig[4] & !C1L95Q)) ) ) );
+
+
+--C1L121 is blink:uut|Equal0~1 at LABCELL_X45_Y2_N12
+C1L121 = ( C1_count_sig[9] & ( C1_count_sig[6] & ( (!C1_count_sig[10] & (!C1_count_sig[5] & (C1_count_sig[8] & !C1_count_sig[7]))) ) ) );
+
+
+--C1L122 is blink:uut|Equal0~2 at LABCELL_X45_Y1_N54
+C1L122 = ( C1_count_sig[22] & ( !C1_count_sig[21] & ( (C1_count_sig[18] & (!C1_count_sig[20] & (!C1_count_sig[17] & C1_count_sig[19]))) ) ) );
+
+
+--C1L123 is blink:uut|Equal0~3 at LABCELL_X45_Y1_N48
+C1L123 = ( !C1_count_sig[13] & ( !C1_count_sig[12] & ( (C1_count_sig[14] & (!C1_count_sig[16] & !C1_count_sig[15])) ) ) );
+
+
+--C1L126 is blink:uut|output_sig~0 at LABCELL_X45_Y2_N0
+C1L126 = ( C1_output_sig & ( C1L121 & ( (!C1L123) # ((!C1_count_sig[11]) # ((!C1L120) # (!C1L122))) ) ) ) # ( !C1_output_sig & ( C1L121 & ( (C1L123 & (C1_count_sig[11] & (C1L120 & C1L122))) ) ) ) # ( C1_output_sig & ( !C1L121 ) );
+
+
+--C1L124 is blink:uut|Equal0~4 at LABCELL_X45_Y2_N9
+C1L124 = ( C1L122 & ( C1L120 & ( (C1_count_sig[11] & (C1L121 & C1L123)) ) ) );
+
+
+--A1L6 is output~output at IOOBUF_X52_Y0_N2
+A1L6 = OUTPUT_BUFFER.O(.I(C1_output_sig), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--output is output at PIN_V16
+output = OUTPUT();
+
+
+--A1L3 is clk~input at IOIBUF_X32_Y0_N1
+A1L3 = INPUT_BUFFER(.I(clk), );
+
+
+--clk is clk at PIN_AF14
+clk = INPUT();
+
+
+--A1L8 is reset~input at IOIBUF_X12_Y0_N18
+A1L8 = INPUT_BUFFER(.I(reset), );
+
+
+--reset is reset at PIN_AB12
+reset = INPUT();
+
+
+
+--A1L4 is clk~inputCLKENA0 at CLKCTRL_G6
+A1L4 = cyclonev_clkena(.INCLK = A1L3) WITH (clock_type = "Global Clock", ena_register_mode = "always enabled");
+
+
+--C1L97Q is blink:uut|count_sig[1]~DUPLICATE at FF_X45_Y2_N34
+--register power-up is low
+
+C1L97Q = DFFEAS(C1L18, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1L95Q is blink:uut|count_sig[0]~DUPLICATE at FF_X45_Y2_N32
+--register power-up is low
+
+C1L95Q = DFFEAS(C1L22, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+
+--C1L110Q is blink:uut|count_sig[13]~DUPLICATE at FF_X45_Y1_N11
+--register power-up is low
+
+C1L110Q = DFFEAS(C1L86, GLOBAL(A1L4), !A1L8,  ,  ,  ,  , C1L124,  );
+
+

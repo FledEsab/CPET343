@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab2/full_adder_single_bit_arch/sim/script
+Egeneric_adder_arch
+Z1 w1788740781
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8../../src/generic_adder_arch.vhd
+Z6 F../../src/generic_adder_arch.vhd
+l0
+L11
+VC`Ebe_[h5RBg;C7oGAkhA0
+!s100 5L^XzDm92Q?ZYInz3>MYN2
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1789072030
+!i10b 1
+Z9 !s108 1789072030.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_arch.vhd|
+Z11 !s107 ../../src/generic_adder_arch.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 18 generic_adder_arch 0 22 C`Ebe_[h5RBg;C7oGAkhA0
+l38
+L24
+Ve_BTVTEG?3mXRH875KLT=2
+!s100 RO[cS5<9aC5HDUROLD7R13
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egeneric_adder_arch_sub
+Z14 w1788741379
+R3
+R4
+R0
+Z15 8../../src/generic_adder_arch_sub.vhd
+Z16 F../../src/generic_adder_arch_sub.vhd
+l0
+L9
+VK`K<R:OnSc>FJDjihZSe@3
+!s100 3;6[jEP=@[OKBC]Pz1imA2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_arch_sub.vhd|
+Z18 !s107 ../../src/generic_adder_arch_sub.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 22 generic_adder_arch_sub 0 22 K`K<R:OnSc>FJDjihZSe@3
+l20
+L19
+VQ;1jU?EfzR5]=>kmJ^c0h0
+!s100 nAcBf=X[VP=e74XfS`FXc3
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Egeneric_adder_tb
+Z19 w1789066796
+Z20 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R2
+R3
+R4
+R0
+Z21 8C:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab2/full_adder_single_bit_arch/sim/src/generic_adder_tb.vhd
+Z22 FC:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab2/full_adder_single_bit_arch/sim/src/generic_adder_tb.vhd
+l0
+L11
+VVHOi]<Mjm_:AAKgek6`e61
+!s100 TUaY0d6^aLMnSRVcg`z]z3
+R7
+31
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab2/full_adder_single_bit_arch/sim/src/generic_adder_tb.vhd|
+Z24 !s107 C:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab2/full_adder_single_bit_arch/sim/src/generic_adder_tb.vhd|
+!i113 1
+R12
+R13
+Aarch
+R20
+R2
+R3
+R4
+Z25 DEx4 work 16 generic_adder_tb 0 22 VHOi]<Mjm_:AAKgek6`e61
+l38
+L14
+Z26 V<^>zAXhoja:OnV;J;8zQN0
+Z27 !s100 DOaeII4MWcV0fAI__DMFE2
+R7
+31
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13

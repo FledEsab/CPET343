@@ -1,0 +1,60 @@
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Sep 17,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg_sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity seven_seg_sim
+# -- Compiling architecture beh of seven_seg_sim
+# End time: 16:56:07 on Sep 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Sep 17,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity generic_counter
+# -- Compiling architecture beh of generic_counter
+# End time: 16:56:07 on Sep 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Sep 17,2026
+# vcom -reportprogress 300 -93 -work work ../../src/hex_ones_dig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity hex_ones_dig
+# -- Compiling architecture beh of hex_ones_dig
+# End time: 16:56:07 on Sep 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Sep 17,2026
+# vcom -reportprogress 300 -93 -work work ../src/seven_seg_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity seven_seg_tb
+# -- Compiling architecture arch of seven_seg_tb
+# -- Loading entity seven_seg_sim
+# End time: 16:56:07 on Sep 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" seven_seg_tb 
+# Start time: 16:56:10 on Sep 17,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.seven_seg_tb(arch)
+# Loading work.seven_seg_sim(beh)
+# Loading work.hex_ones_dig(beh)
+# Loading work.generic_counter(beh)
+# ** Note: ****************** sequential testbench start ****************
+#    Time: 0 ps  Iteration: 0  Instance: /seven_seg_tb
+# ** Note: ****************** sequential testbench stop ****************
+#    Time: 480 ns  Iteration: 0  Instance: /seven_seg_tb

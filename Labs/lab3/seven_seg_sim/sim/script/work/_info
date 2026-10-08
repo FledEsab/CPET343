@@ -1,0 +1,173 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ethan/Documents/CPET 343/Labs/Labs/lab3/seven_seg_sim/sim/script
+Egeneric_counter
+Z1 w1789611582
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../../src/generic_counter.vhd
+Z5 F../../src/generic_counter.vhd
+l0
+L8
+V^`<KMAE]`_5EGCAHV]bZ72
+!s100 b;7GBWdQ5cL8<UCk3lILB1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1789678567
+!i10b 1
+Z8 !s108 1789678567.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|../../src/generic_counter.vhd|
+Z10 !s107 ../../src/generic_counter.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abeh
+R2
+R3
+DEx4 work 15 generic_counter 0 22 ^`<KMAE]`_5EGCAHV]bZ72
+l23
+L19
+VTT:M88V=lJ62fz0cSYdIR0
+!s100 z5ik>DVc6W0?c7LPT5hG52
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehex_ones_dig
+Z13 w1789620712
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8../../src/hex_ones_dig.vhd
+Z16 F../../src/hex_ones_dig.vhd
+l0
+L13
+VUjea[5nT?[]07;QBDRDYP3
+!s100 i6iJVXXoVo4AL2bPKfXD61
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|../../src/hex_ones_dig.vhd|
+Z18 !s107 ../../src/hex_ones_dig.vhd|
+!i113 1
+R11
+R12
+Abeh
+R14
+R2
+R3
+DEx4 work 12 hex_ones_dig 0 22 Ujea[5nT?[]07;QBDRDYP3
+l26
+L24
+V`dbJ0FDi?C2ZbE20S9`mI0
+!s100 <RASIYb:LJbQk>RS7i]:H0
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Eseven_seg_sim
+Z19 w1789668822
+R14
+R2
+R3
+R0
+Z20 8../../src/seven_seg_sim.vhd
+Z21 F../../src/seven_seg_sim.vhd
+l0
+L12
+VB73SaJYce[iC9fBj7Dz1b3
+!s100 FoJCYT[3QaAzA3ENz>jF41
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|../../src/seven_seg_sim.vhd|
+Z23 !s107 ../../src/seven_seg_sim.vhd|
+!i113 1
+R11
+R12
+Abeh
+R14
+R2
+R3
+Z24 DEx4 work 13 seven_seg_sim 0 22 B73SaJYce[iC9fBj7Dz1b3
+l47
+L22
+VO:ne4ZiS<Sa^6[<GY:93V1
+!s100 5UBDLXj>n40bo0ilb]9jl0
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Eseven_seg_tb
+Z25 w1789621374
+R14
+R2
+R3
+R0
+Z26 8../src/seven_seg_tb.vhd
+Z27 F../src/seven_seg_tb.vhd
+l0
+L9
+V=Fn8URJ<?]?=oFC]eNCod3
+!s100 <[]cRiH?Cjz[eK]hRnh^O3
+R6
+31
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-93|-work|work|../src/seven_seg_tb.vhd|
+Z29 !s107 ../src/seven_seg_tb.vhd|
+!i113 1
+R11
+R12
+Aarch
+R24
+R14
+R2
+R3
+Z30 DEx4 work 12 seven_seg_tb 0 22 =Fn8URJ<?]?=oFC]eNCod3
+l21
+L12
+Z31 VYQNZVPzWz0m[8o0BYB[;W3
+Z32 !s100 hZk>08`IzY4Z4_K1Z`PTb1
+R6
+31
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12

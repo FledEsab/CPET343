@@ -1,0 +1,93 @@
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+--sum[0] is sum[0]
+sum[0] = OUTPUT(B1_sum);
+
+
+--sum[1] is sum[1]
+sum[1] = OUTPUT(B2_sum);
+
+
+--sum[2] is sum[2]
+sum[2] = OUTPUT(B3_sum);
+
+
+--sum[3] is sum[3]
+sum[3] = OUTPUT(B4_sum);
+
+
+--cout is cout
+cout = OUTPUT(B4L1);
+
+
+--a[0] is a[0]
+a[0] = INPUT();
+
+
+--b[0] is b[0]
+b[0] = INPUT();
+
+
+--cin is cin
+cin = INPUT();
+
+
+--B1_sum is generic_adder_arch_sub:\adders:0:u_full_adder|sum
+B1_sum = !a[0] $ (!b[0] $ (cin));
+
+
+--a[1] is a[1]
+a[1] = INPUT();
+
+
+--b[1] is b[1]
+b[1] = INPUT();
+
+
+--B2_sum is generic_adder_arch_sub:\adders:1:u_full_adder|sum
+B2_sum = ( b[1] & ( !a[1] $ (((!a[0] & (b[0] & cin)) # (a[0] & ((cin) # (b[0]))))) ) ) # ( !b[1] & ( !a[1] $ (((!a[0] & ((!b[0]) # (!cin))) # (a[0] & (!b[0] & !cin)))) ) );
+
+
+--a[2] is a[2]
+a[2] = INPUT();
+
+
+--b[2] is b[2]
+b[2] = INPUT();
+
+
+--B2L1 is generic_adder_arch_sub:\adders:1:u_full_adder|cout~0
+B2L1 = ( b[1] & ( ((!a[0] & (b[0] & cin)) # (a[0] & ((cin) # (b[0])))) # (a[1]) ) ) # ( !b[1] & ( (a[1] & ((!a[0] & (b[0] & cin)) # (a[0] & ((cin) # (b[0]))))) ) );
+
+
+--B3_sum is generic_adder_arch_sub:\adders:2:u_full_adder|sum
+B3_sum = !a[2] $ (!b[2] $ (B2L1));
+
+
+--a[3] is a[3]
+a[3] = INPUT();
+
+
+--b[3] is b[3]
+b[3] = INPUT();
+
+
+--B4_sum is generic_adder_arch_sub:\adders:3:u_full_adder|sum
+B4_sum = ( b[3] & ( !a[3] $ (((!a[2] & (b[2] & B2L1)) # (a[2] & ((B2L1) # (b[2]))))) ) ) # ( !b[3] & ( !a[3] $ (((!a[2] & ((!b[2]) # (!B2L1))) # (a[2] & (!b[2] & !B2L1)))) ) );
+
+
+--B4L1 is generic_adder_arch_sub:\adders:3:u_full_adder|cout~0
+B4L1 = ( b[3] & ( ((!a[2] & (b[2] & B2L1)) # (a[2] & ((B2L1) # (b[2])))) # (a[3]) ) ) # ( !b[3] & ( (a[3] & ((!a[2] & (b[2] & B2L1)) # (a[2] & ((B2L1) # (b[2]))))) ) );
+
+
