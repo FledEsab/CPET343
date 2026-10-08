@@ -7,7 +7,7 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
-use iee.numeric_std.all;
+use ieee.numeric_std.all;
 
 entity calculator_top is
     port(
@@ -41,27 +41,31 @@ component synchronizer_3bit is
     clk        :in std_logic;
     reset      :in std_logic;
     async_in   :in std_logic_vector(2 downto 0);
-    async_out  :out std_logic_vector(2 downto 0)
+    sync_out  :out std_logic_vector(2 downto 0)
 
     );
 end component;
-component generic_calculator is
-    port(
-    a          :in std_logic_vector(bits-1 downto 0);
-    b          :in std_logic_vector(bits-1 downto 0);
-    flag       :in std_logic;
-    c          :out std_logic_vector(bits downto 0)
 
-    );
-end component;
 
 component bcd_to_sev_seg is
     port(
-    bcd :in std_logic_vector(2 downto 0);
+    bcd :in std_logic_vector(3 downto 0);
     hex0 :out std_logic_vector(6 downto 0)
 
     );
 end component;
+
+    component generic_calculator is
+        generic (
+            bits : integer := 3
+        );
+        port (
+            a    : in  std_logic_vector(bits-1 downto 0);
+            b    : in  std_logic_vector(bits-1 downto 0);
+            flag : in  std_logic;
+            c    : out std_logic_vector(bits downto 0)
+        );
+    end component;
 -----------------------------------------------------------------
 --done w/ components
 -----------------------------------------------------------------
@@ -92,7 +96,7 @@ signal flag            : std_logic;
     clk => clk,
     reset => reset,
     async_in => a,
-    async_out => a_sync
+    sync_out => a_sync
 
     );
 
@@ -103,7 +107,7 @@ signal flag            : std_logic;
     clk => clk,
     reset => reset,
     async_in => b,
-    async_out => b_sync
+    sync_out => b_sync
 
     );
 
@@ -129,7 +133,7 @@ signal flag            : std_logic;
 
     );
 -------------------------------------------------
-    a_sync_bcd <= '0' a_sync;
+    a_bcd_sync <= '0' & a_sync;
 -------------------------------------------------
     u_b_disp: bcd_to_sev_seg --disp b input
 
@@ -139,7 +143,7 @@ signal flag            : std_logic;
 
     );
 -------------------------------------------------
-b_sync_bcd <= '0' b_sync;
+    b_bcd_sync <= '0'& b_sync; --
 ------------------------------------------------
     u_add_button : rising_edge_synchronizer
 
@@ -182,7 +186,7 @@ b_sync_bcd <= '0' b_sync;
     elsif rising_edge(clk) then
     if(add_en = '1') then
     flag <= '0';
-    elsif (sun_en = '1') then
+    elsif (sub_en = '1') then
     flag <= '1';
     end if;
     end if;
@@ -200,6 +204,7 @@ b_sync_bcd <= '0' b_sync;
     end if;
 
     end process;
+
 
 
 

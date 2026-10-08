@@ -10,7 +10,7 @@ USE IEEE.STD_LOGIC_1164.ALL;
 USE ieee.numeric_std.all;
 
 
-entity hex_ones_dig is
+entity bcd_to_sev_seg is
 
     port(
         --clk      :in std_logic;
@@ -19,9 +19,9 @@ entity hex_ones_dig is
         hex0     :out std_logic_vector(6 downto 0)
     );
 
-end hex_ones_dig;
+end bcd_to_sev_seg;
 
-ARCHITECTURE beh of hex_ones_dig is
+ARCHITECTURE beh of bcd_to_sev_seg is
     --what will ones dig be on hex display?
 begin
     process(bcd)
