@@ -12,14 +12,14 @@ end add_sub_tb;
 
 architecture arch of add_sub_tb is
 
-    component add_sub is
+    component calculator_top is
         port (
             clk           : in  std_logic;
             reset         : in  std_logic;
             a             : in  std_logic_vector(2 downto 0);
             b             : in  std_logic_vector(2 downto 0);
-            add_btn       : in  std_logic;
-            sub_btn       : in  std_logic;
+            button_add       : in  std_logic;
+            buddon_subtract       : in  std_logic;
             a_bcd         : out std_logic_vector(6 downto 0);
             b_bcd         : out std_logic_vector(6 downto 0);
             result_bcd    : out std_logic_vector(6 downto 0)
@@ -61,8 +61,8 @@ begin
             reset         => reset,
             a             => a,
             b             => b,
-            add_btn       => add_btn,
-            sub_btn       => sub_btn,
+            add_button       => add_btn,
+            sub_button       => sub_btn,
             a_bcd         => open,
             b_bcd         => open,
             result_bcd    => open
