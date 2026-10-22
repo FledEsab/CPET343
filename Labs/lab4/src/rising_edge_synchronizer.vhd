@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------
 -- Dr. Kaputa
--- rising edge synchronizer
+-- rising edge synchronizerr
 -------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;

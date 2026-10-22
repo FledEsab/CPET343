@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------
--- Dr. Kaputa
--- synchronizer 3 bit example
+-- Dr. Kaputaa
+-- synchronizer 3 bit examplee
 -------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
