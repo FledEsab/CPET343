@@ -63,7 +63,7 @@ end component;
     --FSM states
 ------------------------------------------------------------------
     type fsm_states is (input_a, input_b, disp_sum, disp_diff);
-    signal current_state, next_state : state_type;--signals defining states
+    signal current_state, next_state : fsm_state;--signals defining states
 ------------------------------------------------------------------
     --internal signals
 ------------------------------------------------------------------
@@ -81,15 +81,16 @@ end component;
     signal hex_hundreds :std_logic_vector(3 downto 0);--portmap hex hundreds
     signal r_o_12bits :std_logic_vector(11 downto 0);
     signal manual_event_clk_push_button_sync :std_logic := '0';
-    signal sig_o :std_logic_vector(7 downto 0);
+    signal sig_o :std_logic_vector(7 downto 0); --output signal processing
     signal sig_12b_o :std_logic_vector(11 downto 0);
+    signal rst_edgedgedge :std_logic;    
 -------------------------------------------------------------------
         --constants for state debug led and other, we want this to never change!!!
         CONSTANT led_o_0   :std_logic_vector(3 downto 0) := "0001";
         CONSTANT led_o_1   :std_logic_vector(3 downto 0) := "0010";
         CONSTANT led_o_2   :std_logic_vector(3 downto 0) := "0100";
         CONSTANT led_o_3   :std_logic_vector(3 downto 0) := "1000";
-        CONSTANT led_o_rst :std_logic_vector(3 downto 0) := "0000";--turn off leds(when others)
+        --CONSTANT led_o_rst :std_logic_vector(3 downto 0) := "0000";
         CONSTANT pb_i      :std_logic := '1';
         CONSTANT clear_d   :std_logic_vector(7 downto 0) := "00000000";
 --------------------------------------------------------------------
@@ -173,7 +174,7 @@ end component;
     clock => clock_50mhz,
      reset_n => 0,
      data_i => rst_n,
-     RisingEdge => rst_e,
+     RisingEdge => rst_edge,
      FallingEdge => open
 
     );
@@ -191,16 +192,16 @@ end component;
 --------------------------------------------------------------------
     --end port maping
 ----------------------------------------------------------------------------------------
-    synchronized_output: process(rst_e, clock_50mhz)
+    synchronized_output: process(rst_edge, clock_50mhz)
     begin
-        if rst_e = '1' then
+        if rst_edge = '1' then
         current_state <= input_a;
            elsif (clock_50mhz'event and clock_50mhz = '1') then
     current_state <= next_state;
       end if;
    end process;
 ------------------------------------------------------------------------------------------------------
- FSM_Logic: process(current_state, a_sync, b_sync, rst_e,manual_event_clk_push_button_sync)
+ FSM_Logic: process(current_state, a_sync, b_sync, rst_edge,manual_event_clk_push_button_sync)
     begin
       case(current_state) is
          when input_a => state_debug_led <= led_o_0;
@@ -232,9 +233,9 @@ end component;
       end case;
     end process;
 --process input_a stuff
-a_i: process(clock_50mhz, rst_e, current_state, a_sync)
+a_i: process(clock_50mhz, rst_edge, current_state, a_sync)
     begin
-    if(rst_e = '1') then
+    if(rst_edge = '1') then
       a_d <= clear_d;
     elsif(clock_50mhz'event and clock_50mhz = '1')then
         case(current_state) is
@@ -248,9 +249,9 @@ a_i: process(clock_50mhz, rst_e, current_state, a_sync)
   end process;
 
 --process input_b stuff(state)
-b_i:process(clock_50mhz, rst_e, current_state, b_sync)
+b_i:process(clock_50mhz, rst_edg, current_state, b_sync)
     begin
-        if(rst_e = '1') then
+        if(rst_edg = '1') then
           b_d <= clear_d;
         elsif(clock_50mhz'event and clock_50mhz = '1')then
            case(current_state) is
@@ -264,20 +265,45 @@ b_i:process(clock_50mhz, rst_e, current_state, b_sync)
  end process;
 --we need to set adding process
         --stuff
-s_add: process(clock_50mhz, rst_e, current_state, add_o)
+s_add: process(clock_50mhz, rst_edge, current_state, add_o)
     begin
 --we need to set subtraction process
         --stuff
-s_sub: process(clock_50mhz, rst_e, current_state, sub_o)
+         if(rst_edge = '1') then
+             add_d <= clear_d;
+         elsif(clock_50mhz'event and clock_50mhz = '1') then
+             case(current_state) is
+                when input_a => add_d <= add_d;
+                when input_b => add_d <= add_d;
+                when disp_sum => add_d <= add_o;
+                when disp_diff => add_d <= add_d;
+                when others => add_d <= add_d;
+             end case;
+         end if;
+    end process;
+s_sub: process(clock_50mhz, rst_edgedge, current_state, sub_o)
     begin
 --we need to set output based on the state
         --stuff
-s_o: process(clock_50mhz, rst_e, current_state, sig_o)
-        begin
+    if(rst_edge = '1') then
+        sub_d <= clear_d;
+    elsif(clock_50mhz'event and clock_50mhz = '1') then
+        case(current_state) is
+            when input_a => sub_d <= sub_d;
+            when input_b => sub_d <= sub_d;
+            when disp_sum => sub_d <= sub_o;
+            when disp_diff => add_d <= sub_d;
+            when others => add_d <= sub_d;
+        end case;
+    end if;
+end process;
+s_o: process(clock_50mhz, rst_edge, current_state, sig_o)
     begin
+
+
 --we need to set output to 12-bits
 --stuff
-s_o_12bits: process(clock_50mhz, rst_e, current_state, r_o_12bits)    --r_o denotes result out and 12-bit size
-
+s_o_12bits: process(clock_50mhz, rst_edge, current_state, r_o_12bits)    --r_o denotes result out and 12-bit size
+    begin
 
 end core_logic;
