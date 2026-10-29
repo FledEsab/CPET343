@@ -2,6 +2,23 @@
 -- Dr. Kaputa
 -- double_dabble demo
 -------------------------------------------------------------------------------
+
+library IEEE;
+use ieee.std_logic_1164;
+
+package double_dabble_pkg is
+  component double_dabble is
+
+    port(
+      result_padded          :in std_logic_vector(bits-1 downto 0);
+      ones                   :in std_logic_vector(bits-1 downto 0);
+      tens                   :in std_logic;
+      hundreds               :out std_logic_vector(bits downto 0)
+    );
+  end component;
+end package;
+
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;

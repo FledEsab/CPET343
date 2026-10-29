@@ -5,6 +5,22 @@
 --Date Modified:          10.28.26
 --------------------------------------------------------------------------------------
 
+library IEEE;
+use ieee.std_logic_1164;
+
+package bcd_to_sev_seg_pkg is
+    component bcd_to_sev_seg is
+
+        port(
+            bcd                                    :in std_logic_vector(bits-1 downto 0);
+            seven_segment_display_out              :in std_logic_vector(bits-1 downto 0)
+            --flag           :in std_logic;
+            --bcd_result_1   :out std_logic_vector(bits downto 0)
+        );
+    end component;
+end package;
+
+
 Library ieee;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE ieee.numeric_std.all;
