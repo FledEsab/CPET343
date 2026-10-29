@@ -10,10 +10,10 @@ package double_dabble_pkg is
   component double_dabble is
 
     port(
-      result_padded          :in std_logic_vector(bits-1 downto 0);
-      ones                   :in std_logic_vector(bits-1 downto 0);
-      tens                   :in std_logic;
-      hundreds               :out std_logic_vector(bits downto 0)
+      result_padded          :in std_logic_vector(11 downto 0);
+      ones                   :in std_logic_vector(3 downto 0);
+      tens                   :in std_logic_vector(3 downto 0);
+      hundreds               :out std_logic_vector(3 downto 0)
     );
   end component;
 end package;

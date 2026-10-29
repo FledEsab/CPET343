@@ -16,8 +16,10 @@
         port(
             a              :in std_logic_vector(bits-1 downto 0);
             b              :in std_logic_vector(bits-1 downto 0);
-            flag           :in std_logic;
-            bcd_result_1   :out std_logic_vector(bits downto 0)
+            cin            :in std_logic;
+            --flag           :in std_logic;
+            bcd_result_1     :out std_logic_vector(bits downto 0);
+            bcd_result_cout  :out std_logic
     );
     end component;
     end package;
@@ -32,22 +34,26 @@ entity generic_subtractor is
         bits    : integer := 4
     );
     port (
-        a                   : in  std_logic_vector(bits-1 downto 0);
-        b                   : in  std_logic_vector(bits-1 downto 0);
-        flag                : in  std_logic;
-        bcd_result_1        : out std_logic_vector(bits downto 0)
+        a              :in std_logic_vector(bits-1 downto 0);
+        b              :in std_logic_vector(bits-1 downto 0);
+        cin            :in std_logic;
+        --flag           :in std_logic;
+        bcd_result_1     :out std_logic_vector(bits downto 0);
+        bcd_result_cout  :out std_logic
     );
 end entity generic_subtractor;
 
 architecture beh of generic_subtractor is
 
-    --signal add   : std_logic_vector(bits downto 0);
-    signal sub   : std_logic_vector(bits downto 0);
-    --possibly add buffer/guard here
-
+    signal bcd_initial        : std_logic_vector(bits downto 0);
+    signal bcd_result_guard   : std_logic_vector(bits downto 0) := (others => '0');
 
 begin
-    --add  <= std_logic_vector(unsigned('0' & a) + unsigned('0' & b));
-    sub  <= std_logic_vector(unsigned('0' & a) - unsigned('0' & b));
-    bcd_result_1    <= sub; -- when the flag is 0 we add when else subtract a & b
+    bcd_initial  <= std_logic_vector(unsigned('0' & a) - unsigned('0' & b)
+        - unsigned(bcd_result_guard & cin));
+
+    bcd_result_1    <= bcd_initial(bits-1 downto 0);
+    bcd_result_cout <= bcd_initial(bits);
+
+
 end beh;
