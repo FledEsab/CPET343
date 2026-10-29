@@ -49,5 +49,5 @@ architecture beh of generic_subtractor is
 begin
     --add  <= std_logic_vector(unsigned('0' & a) + unsigned('0' & b));
     sub  <= std_logic_vector(unsigned('0' & a) - unsigned('0' & b));
-    c    <= sub; -- when the flag is 0 we add when else subtract a & b
+    bcd_result_1    <= sub; -- when the flag is 0 we add when else subtract a & b
 end beh;
