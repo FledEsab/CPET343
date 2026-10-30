@@ -2,7 +2,7 @@
 # Quartus II compile script for DE1-SoC board
 
 # 1] name your project here
-set project_name "add_sub"
+set project_name "sync_calculator"
 
 file delete -force project
 file delete -force output_files
@@ -12,15 +12,15 @@ load_package flow
 project_new $project_name
 set_global_assignment -name FAMILY Cyclone
 set_global_assignment -name DEVICE 5CSEMA5F31C6 
-set_global_assignment -name TOP_LEVEL_ENTITY add_sub
+set_global_assignment -name TOP_LEVEL_ENTITY calculator_top
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY ../output_files
 
 # 2] include your relative path files here
 set_global_assignment -name VHDL_FILE ../../src/rising_edge_synchronizer.vhd
-set_global_assignment -name VHDL_FILE ../../src/seven_seg.vhd
-set_global_assignment -name VHDL_FILE ../../src/generic_add_sub.vhd
+set_global_assignment -name VHDL_FILE ../../src/bcd_to_sev_seg.vhd
+set_global_assignment -name VHDL_FILE ../../src/generic_calculator.vhd
 set_global_assignment -name VHDL_FILE ../../src/synchronizer_3bit.vhd
-set_global_assignment -name VHDL_FILE ../../src/add_sub.vhd
+set_global_assignment -name VHDL_FILE ../../src/calculator_top.vhd
 
 set_location_assignment PIN_AB12 -to reset
 set_location_assignment PIN_AF14 -to clk
@@ -55,8 +55,8 @@ set_location_assignment PIN_AF28 -to result_bcd[4]
 set_location_assignment PIN_AG28 -to result_bcd[5]
 set_location_assignment PIN_AH28 -to result_bcd[6]
 
-set_location_assignment PIN_AA15 -to add_btn
-set_location_assignment PIN_AA14 -to sub_btn
+set_location_assignment PIN_AA15 -to add_button
+set_location_assignment PIN_AA14 -to sub_button
 
 execute_flow -compile
 project_close
