@@ -16,7 +16,7 @@ entity top_add_sub is
         clock_50mhz: in std_logic;
         i_rst_n: in std_logic; --n denotes active low
         i_sw: in std_logic_vector(7 downto 0);
-        i_btn: in std_logic; --i denotes "i"nput pin
+        i_btn: in std_logic_vector(0 downto 0); --i denotes "i"nput pin
         HEX0: out std_logic_vector(6 downto 0);
         HEX1: out std_logic_vector(6 downto 0);
         HEX2: out std_logic_vector(6 downto 0);
@@ -32,7 +32,7 @@ begin
         port map(
             clock_50mhz => clock_50mhz,
             bcd_input => i_sw(7 downto 0),
-            rst_n => i_rst_n,
+          rst_n => i_rst_n,
             hex0_ones => HEX0,
             hex1_tens => HEX1,
             hex2_hundreds => HEX2,

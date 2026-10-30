@@ -23,7 +23,7 @@ END PACKAGE edge_detector_pkg;
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-ENTITY edge_detect IS
+ENTITY edge_detector IS
   PORT (
     clock       : IN  std_logic;
     reset_n     : IN  std_logic;
@@ -32,9 +32,9 @@ ENTITY edge_detect IS
     RisingEdge  : OUT std_logic;
     FallingEdge : OUT std_logic
     );
-END ENTITY edge_detect;
+END ENTITY edge_detector;
 
-ARCHITECTURE behave OF edge_detect IS
+ARCHITECTURE behave OF edge_detector IS
 
   SIGNAL prev_d_i1 : std_logic;
   SIGNAL prev_d_i2 : std_logic;
@@ -50,7 +50,7 @@ BEGIN
       RisingEdge  <= '0';
       FallingEdge <= '0';
     ELSIF (clock'event AND clock = '1') THEN
-      prev_d_i1 <= d_i;
+      prev_d_i1 <= data_i;
       prev_d_i2 <= prev_d_i1;
       RisingEdge  <= ((NOT prev_d_i2) AND prev_d_i1);
       FallingEdge <= (prev_d_i2 AND (NOT prev_d_i1));

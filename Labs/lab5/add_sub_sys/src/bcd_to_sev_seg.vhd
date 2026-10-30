@@ -6,14 +6,14 @@
 --------------------------------------------------------------------------------------
 
 library IEEE;
-use ieee.std_logic_1164;
+use ieee.std_logic_1164.all;
 
 package bcd_to_sev_seg_pkg is
     component bcd_to_sev_seg is
 
         port(
-            bcd                                    :in std_logic_vector(bits-1 downto 0);
-            seven_segment_display_out              :in std_logic_vector(bits-1 downto 0)
+            bcd                                    :in std_logic_vector(3 downto 0);
+            seven_segment_display_out              :out std_logic_vector(6 downto 0)
             --flag           :in std_logic;
             --bcd_result_1   :out std_logic_vector(bits downto 0)
         );
