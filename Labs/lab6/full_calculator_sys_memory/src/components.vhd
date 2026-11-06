@@ -74,8 +74,8 @@ package components is
   
   component seven_seg is
     port (
-      bcd             : in std_logic_vector(3 downto 0);
-      seven_seg_out   : out std_logic_vector(6 downto 0)
+      bcd                         : in std_logic_vector(3 downto 0);
+      seven_segment_display_out   : out std_logic_vector(6 downto 0)
     );  
   end component;  
 end components;
